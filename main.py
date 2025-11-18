@@ -1,6 +1,9 @@
-def main():
-    print("Hello from cse-315-class-demo-1!")
+from src.add import add
 
+def main():
+    print(f"Hello from cse-315-class-demo-1! 2 + 3 = {add(2,3)}")
+
+#   f = add("A", "B")
 
 if __name__ == "__main__":
     main()
